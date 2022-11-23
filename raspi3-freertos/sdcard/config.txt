@@ -1,0 +1,23 @@
+[all]
+
+# Set memory size(MB) for GPU.
+gpu_mem=16
+
+# Disable splash.
+disable_splash=1
+
+# Set arch to AArch64.
+arm_control=0x200
+
+# Enable UART.
+enable_uart=0
+dtoverlay=pi3-miniuart-bt
+core_freq=250
+
+# command line for kernel.
+cmdline=cmdline.txt
+
+# Set execute image at first.
+kernel_old=0
+kernel=uboot.bin
+kernel_address=0x00080000
