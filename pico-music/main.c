@@ -151,9 +151,9 @@ int main(void)
     unsigned int musicCnt  = 0;
     noteInfo_t*  musics[]  =
     {
-        menuet,
+        tetris,
         elise,
-        tetris
+        menuet
     };
 
     // GPIOの初期化
